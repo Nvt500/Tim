@@ -1,0 +1,15 @@
+[package]
+name = "tim"
+version = "0.1.0"
+authors = ["Nvt5"]
+license = "MIT"
+description = "Command line text editor like vim. But tim."
+readme = "README.md"
+homepage = "https://github.com/Nvt500/tim"
+repository = "https://github.com/Nvt500/tim"
+keywords = ["vim", "cli", "text-editor", "cool"]
+categories = ["command-line-interface"]
+edition = "2021"
+
+[dependencies]
+crossterm = "=0.28.1"
