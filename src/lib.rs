@@ -265,7 +265,7 @@ fn rename_file(path: &str, mut name: String) -> Result<(), &'static str>
 {
     if name.is_empty()
     {
-        println!("Enter a new name for the file.");
+        println!("Enter a new name for the file:");
 
         name = String::new();
         match std::io::stdin().read_line(&mut name)
@@ -275,6 +275,7 @@ fn rename_file(path: &str, mut name: String) -> Result<(), &'static str>
                 return Err("Error reading name input.");
             },
         }
+        println!();
     }
 
     match std::fs::rename(path, name.trim())
