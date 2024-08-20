@@ -1,11 +1,20 @@
 
 # Tim
+[![Crates.io](https://img.shields.io/crates/v/tim-cli.svg)](https://crates.io/crates/tim-cli "Package's crates.io page")
 
 Command line text editor like vim. But tim.
 
-Let's you open a file in your terminal to edit files with word wrap and a undo functionality.
+It lets you open a file in your terminal to edit files with word wrap and an undo functionality.
 
 Tim also includes a file explorer to quickly select the correct file.
+
+# Installation
+
+```
+cargo install tim-cli
+```
+
+Please rename the executable to tim since it will be downloaded as tim-cli because someone had to take the name.
 
 # Commands
 ```
@@ -42,7 +51,7 @@ bar.txt
 tim bar.txt -- delete           // Deletes bar.txt
 ```
 
-Pretty self explanatory.
+Pretty self-explanatory.
 
 # Controls
 
