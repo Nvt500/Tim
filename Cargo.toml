@@ -1,5 +1,5 @@
 [package]
-name = "tim"
+name = "tim-cli"
 version = "0.1.0"
 authors = ["Nvt5"]
 license = "MIT"
